@@ -478,6 +478,10 @@ button {
     font-size: 60px!important;
 }
 
+.text-center {
+    text-align: center;
+}
+
 .sm-shadow {
     text-shadow: 0 1px 2px rgba(0, 0, 0, .3);
 }
@@ -805,7 +809,7 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-image: url("img/agence-la-panthere.jpg");
 }
 
 .bg-lines-h2-bg {
@@ -830,8 +834,12 @@ h4 {
 }
 
 .author {
-    font-size: 1.3em;
-    
+    font-size: 1.3em; 
+}
+
+.col-sm-12 {
+    width: 100%;
+    place-items: center;
 }
 
 @media (max-width: 1024px) {
