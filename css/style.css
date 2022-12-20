@@ -701,6 +701,10 @@ p {
 .social {
     max-width: 400px;
     margin: 20px auto;
+    display: flex;
+    align-items: center;
+    color: white!important;
+    gap: 4px;
 }
 
 h2 {
