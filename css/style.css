@@ -783,12 +783,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #3B3B3B!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #0B1C34!important;
 }
 
 .ltc-white {
@@ -845,16 +845,6 @@ h4 {
 .col-sm-12 {
     width: 100%;
     place-items: center;
-}
-
-.btn-atomic-tangerine--modified {
-    background: #F3976C;
-    color: #3B3B3B!important;
-}
-
-.btn-atomic-tangerine--modified:hover {
-    background: #c27956!important;
-    color: #0B1C34!important;
 }
 
 footer p, footer .social, footer .social .icon-md {
