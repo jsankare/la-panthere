@@ -703,7 +703,7 @@ p {
     margin: 20px auto;
     display: flex;
     align-items: center;
-    color: white!important;
+    color: #3B3B3B!important;
     gap: 4px;
 }
 
@@ -846,6 +846,23 @@ h4 {
     width: 100%;
     place-items: center;
 }
+
+.btn-atomic-tangerine--modified {
+    background: #F3976C;
+    color: #3B3B3B!important;
+}
+
+.btn-atomic-tangerine--modified:hover {
+    background: #c27956!important;
+    color: #0B1C34!important;
+}
+
+footer p, footer .social, footer .social .icon-md {
+    color: #3B3B3B!important;
+}
+
+
+/* end modifications */
 
 @media (max-width: 1024px) {
     .bloc {
