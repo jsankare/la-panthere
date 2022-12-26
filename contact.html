@@ -37,10 +37,10 @@
 				<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
 					<ul class="site-navigation nav navbar-nav">
 						<li>
-							<a href="index.html">Accueil</a>
+							<a href="index.html" label="Vers la page d'accueil du site">Accueil</a>
 						</li>
 						<li>
-							<a href="contact.html">Contact</a>
+							<a href="contact.html" label="Vers la page de contact du site">Contact</a>
 						</li>
 					</ul>
 				</div>
@@ -82,21 +82,21 @@
 							<input id="name" class="form-control" required />
 						</div>
 						<div class="form-group">
-							<label>
+							<label for="email">
 								Adresse email
 							</label>
-							<input id="email" class="form-control" type="email" required />
+							<input id="email" class="form-control" type="email" required title="Veuillez entrer votre adresse e-mail" />
 						</div>
 						<div class="form-group">
-							<label>
+							<label for="input_504">
 								Comment nous avez-vous connu ?
 							</label>
-							<input class="form-control" type="email" required id="input_504" />
+							<input class="form-control" type="email" required id="input_504" title="Dites-nous comment vous nous avez connus"/>
 						</div>
 						<div class="form-group">
-							<label>
+							<label for="message">
 								Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-							</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+							</label><textarea id="message" class="form-control" rows="4" cols="50" required title="Veuillez entrer un bref de votre projet avec autant de détails que nécessaire"></textarea>
 						</div> 
 						<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 							Envoyer
