@@ -357,6 +357,35 @@ a:hover {
     z-index: 2;
 }
 
+/* added css to improve SEO & Design */
+
+.citation {
+    font-style: italic;
+    font-size: 1.5em;
+    letter-spacing: -1px;
+    line-height: 24px;
+}
+
+.author {
+    font-size: 1.3em; 
+}
+
+.col-sm-12 {
+    width: 100%;
+    place-items: center;
+}
+
+footer p, footer .social, footer .social .icon-md {
+    color: #3B3B3B!important;
+    justify-content: center;
+}
+
+.nav > li a:hover {
+    color: rgb(243, 151, 108)!important;
+}
+
+/* end modifications */
+
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -828,32 +857,6 @@ h4 {
 .bg-presentation {
     background-image: url("../img/image-de-presentation.webp");
 }
-
-/* added css to improve SEO & Design */
-
-.citation {
-    font-style: italic;
-    font-size: 1.5em;
-    letter-spacing: -1px;
-    line-height: 24px;
-}
-
-.author {
-    font-size: 1.3em; 
-}
-
-.col-sm-12 {
-    width: 100%;
-    place-items: center;
-}
-
-footer p, footer .social, footer .social .icon-md {
-    color: #3B3B3B!important;
-    justify-content: center;
-}
-
-
-/* end modifications */
 
 @media (max-width: 1024px) {
     .bloc {
