@@ -201,3 +201,7 @@ $(document).ready(function() {
 }), $(function() {
     $('[data-toggle="tooltip"]').tooltip()
 });
+
+const form = document.getElementById('form_1');
+const successMessage = form.dataset.successMsg;
+const failMessage = form.dataset.failMsg;
